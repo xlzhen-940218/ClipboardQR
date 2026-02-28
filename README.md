@@ -22,7 +22,7 @@
 * **QR Code Generator:** Uses [Nayuki's QR Code generator](https://github.com/nayuki/QR-Code-generator).
 
 ### Build Instructions
-Ensure you have `qrcodegen.hpp`, `qrcodegen.cpp`, your main C++ file, and an icon file (`app.ico`) in your project directory. 
+Ensure you have `qrcodegen.hpp`, `qrcodegen.cpp`, your main C++ file, and an icon file (`qrcode.ico`) in your project directory. 
 
 > **Note on App Icon:** To prevent an invisible/transparent system tray icon, you must compile a resource script (`.rc`) containing the icon.
 
@@ -61,7 +61,7 @@ g++ main.cpp qrcodegen.cpp resource.o -o ClipboardQR.exe -lgdi32 -mwindows
 * **二维码生成库：** 使用了 [Nayuki 的 QR Code generator](https://github.com/nayuki/QR-Code-generator)。
 
 ### 编译指南
-请确保你的项目目录中包含 `qrcodegen.hpp`、`qrcodegen.cpp`、主程序源码以及一个图标文件 (`app.ico`)。
+请确保你的项目目录中包含 `qrcodegen.hpp`、`qrcodegen.cpp`、主程序源码以及一个图标文件 (`qrcode.ico`)。
 
 > **关于程序图标的重要提示：** 为了防止系统托盘图标变成透明或不可见，必须编译包含图标的资源文件 (`.rc`)。
 
